@@ -1,0 +1,224 @@
+<!-- ALL PROJECTS -->
+<section class="all-projects" id="all-projects">
+  <h2 class="section-title">All Projects</h2>
+
+  <div class="all-grid">
+
+    <!-- 100+ Programming Exercises -->
+    <article class="all-card">
+      <div class="badge">100+</div>
+      <h3>Programming Exercises (C, C++, Python)</h3>
+      <p>
+        Solved and organized end-to-end problem sets from basics to advanced:
+        data types, control flow, functions, pointers & references, OOP,
+        STL/containers, file I/O, recursion, DP, graphs, and problem-solving patterns.
+      </p>
+      <ul class="mini-list">
+        <li>C: arrays, pointers, structures, file I/O, recursion</li>
+        <li>C++: OOP, STL (vector/map/set), templates, algorithms</li>
+        <li>Python: list/dict/tuple, OOP, modules, plotting, automation</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">C</span><span class="tag">C++</span><span class="tag">Python</span>
+        <span class="tag">DSA</span><span class="tag">Algorithms</span>
+      </div>
+      <div class="actions">
+        <a class="btn-outline" href="#">Open Repository</a>
+      </div>
+    </article>
+
+    <!-- 10 Mini Projects -->
+    <article class="all-card">
+      <div class="badge">10</div>
+      <h3>Mini Projects (C / C++ / Python)</h3>
+      <p>Hands-on, compact builds covering CLI + basic UI flows:</p>
+      <ul class="mini-list">
+        <li>Student Result Manager (C)</li>
+        <li>Banking System (C++)</li>
+        <li>Library Management (C++)</li>
+        <li>Password Strength Checker (Python)</li>
+        <li>Text-Based To-Do & Notes (Python)</li>
+        <li>Unit Converter & Calculator (C/C++)</li>
+        <li>Contact Book (C++)</li>
+        <li>Guess-the-Number Game (Python)</li>
+        <li>File Organizer (Python)</li>
+        <li>Expense Tracker (Python)</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Console Apps</span><span class="tag">OOP</span>
+        <span class="tag">File I/O</span><span class="tag">Algorithms</span>
+      </div>
+      <div class="actions">
+        <a class="btn-outline" href="#">Demo / Repos</a>
+      </div>
+    </article>
+
+    <!-- 3D Jug (Maya) -->
+    <article class="all-card">
+      <div class="badge">3D</div>
+      <h3>Jug – 3D Model</h3>
+      <p>
+        Modeled, UV-unwrapped, and rendered a realistic jug in
+        <b>Autodesk Maya</b>. Focus on topology, bevels, materials, and lighting.
+      </p>
+      <div class="tags">
+        <span class="tag">Autodesk Maya</span><span class="tag">Modeling</span>
+        <span class="tag">UVs</span><span class="tag">Rendering</span>
+      </div>
+      <div class="actions">
+        <a class="btn-outline" href="#">Preview Renders</a>
+        <a class="btn-purple" href="#">Download .mb/.fbx</a>
+      </div>
+    </article>
+
+    <!-- 2D Animation (Adobe Animate) -->
+    <article class="all-card">
+      <div class="badge">2D</div>
+      <h3>Character / Object – 2D Animation</h3>
+      <p>
+        Created a short 2D animated sequence using <b>Adobe Animate</b>:
+        keyframes, easing, motion paths, and scene composition.
+      </p>
+      <div class="tags">
+        <span class="tag">Adobe Animate</span><span class="tag">Keyframes</span>
+        <span class="tag">Motion</span>
+      </div>
+      <div class="actions">
+        <a class="btn-outline" href="#">Watch Animation</a>
+      </div>
+    </article>
+
+    <!-- Poster Design (Illustrator) -->
+    <article class="all-card">
+      <div class="badge">Design</div>
+      <h3>College Event Poster</h3>
+      <p>
+        Designed a clean, high-impact poster in <b>Adobe Illustrator</b>:
+        grid layout, typography hierarchy, color styles, and export presets.
+      </p>
+      <div class="tags">
+        <span class="tag">Illustrator</span><span class="tag">Typography</span>
+        <span class="tag">Branding</span>
+      </div>
+      <div class="actions">
+        <a class="btn-outline" href="#">View Poster</a>
+        <a class="btn-purple" href="#">Download PDF</a>
+      </div>
+    </article>
+
+    <!-- UI/UX – Facebook Alternative -->
+    <article class="all-card">
+      <div class="badge">UI/UX</div>
+      <h3>Social App – Facebook Alternative (Concept)</h3>
+      <p>
+        End-to-end product thinking: IA, user flows, wireframes, high-fidelity UI,
+        design system tokens, and clickable prototype with accessibility checks.
+      </p>
+      <div class="tags">
+        <span class="tag">Figma</span><span class="tag">Design System</span>
+        <span class="tag">Prototype</span><span class="tag">Accessibility</span>
+      </div>
+      <div class="actions">
+        <a class="btn-outline" href="#">Open Figma</a>
+        <a class="btn-purple" href="#">Case Study</a>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- Back to top / Blog -->
+  <div class="project-buttons">
+    <a href="#projects" class="btn-outline">Back to Featured</a>
+    <a href="#blog" class="btn-purple">Read My Blog</a>
+  </div>
+</section>
+CSS
+/* ALL PROJECTS */
+.all-projects {
+  padding: 60px 80px;
+  background: #f8fbff;
+}
+
+.all-projects .section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 35px;
+  position: relative;
+}
+.all-projects .section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 10px auto 0;
+  background: linear-gradient(90deg, #0072ff, #7b2ff7);
+  border-radius: 2px;
+}
+
+.all-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+.all-card {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  transition: transform .3s ease;
+}
+.all-card:hover { transform: translateY(-6px); }
+
+.all-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  margin: 6px 0 10px;
+}
+.all-card p {
+  color: #555;
+  font-size: .95rem;
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  background: linear-gradient(90deg, #7b2ff7, #0072ff);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: .8rem;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 6px 14px rgba(0,0,0,.12);
+}
+
+.mini-list {
+  margin: 0 0 12px 18px;
+  color: #444;
+}
+.mini-list li { margin-bottom: 6px; font-size: .93rem; }
+
+.all-card .tags {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;
+}
+.all-card .tag {
+  padding: 6px 12px; border-radius: 16px;
+  background: linear-gradient(135deg, #e0e7ff, #f5f3ff);
+  color: #1e3a8a; font-size: .8rem; font-weight: 500;
+}
+
+.all-card .actions {
+  display: flex; gap: 12px; flex-wrap: wrap;
+}
+
+/* reuse existing buttons (btn-outline / btn-purple) from your CSS */
+@media (max-width: 640px) {
+  .all-projects, .projects { padding: 40px 20px; }
+}

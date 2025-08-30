@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextgenClicks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Nextgen<span>clicks</span></div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="navLinks">
+  <li><a href="#">🏠 Home</a></li>
+  <li><a href="#">📺 Snaptube</a></li>
+  <li><a href="#">🔗 Connection</a></li>
+  <li><a href="#">🛒 Marketplace</a></li>
+  <li><a href="#">📝 Storypost</a></li>
+  <li><a href="#">⚙️ Service</a></li>
+  <li><a href="#">💬 Message</a></li>
+</ul>
+
+    <!-- Icons Section -->
+    <div class="icons">
+      <button class="search-btn" id="searchBtn">🔍</button>
+      <input type="text" class="search-box" id="searchBox" placeholder="Search...">
+      <button id="themeToggle">🌞</button>
+      <div class="hamburger" id="hamburger">☰</div>
+    </div>
+  </header>
+
+
+   <main class="feed">
+        <div class="create-post">
+            <div class="create-post-header">
+                <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="User" class="profile-pic">
+                <input type="text" placeholder="What's on your mind, User?">
+            </div>
+            <div class="create-post-actions">
+                <div class="action-button">
+                    <i class="fas fa-video" style="color: #f3425f;"></i>
+                    <span>Live Video</span>
+                </div>
+                <div class="action-button">
+                    <i class="fas fa-photo-video" style="color: #45bd62;"></i>
+                    <span>Photo/Video</span>
+                </div>
+                <div class="action-button">
+                    <i class="fas fa-laugh-beam" style="color: #f7b928;"></i>
+                    <span>Feeling/Activity</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <img src="https://i.pravatar.cc/150?u=a042581f4e29026704e" alt="User" class="profile-pic">
+                <div class="post-info">
+                    <span class="username">Jane Doe</span>
+                    <span class="timestamp">2 hours ago</span>
+                </div>
+                <i class="fas fa-ellipsis-h post-options"></i>
+            </div>
+            <div class="post-content">
+                <p>Enjoying the beautiful sunset today! 🌅 #sunset #nature</p>
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80" alt="Post Image">
+            </div>
+            <div class="post-footer">
+                <div class="post-stats">
+                    <span><i class="fas fa-thumbs-up"></i> 128</span>
+                    <span>8 Comments</span>
+                </div>
+                <div class="post-actions">
+                    <button class="action-button like-button"><i class="far fa-thumbs-up"></i> Like</button>
+                    <button class="action-button"><i class="far fa-comment"></i> Comment</button>
+                    <button class="action-button"><i class="far fa-share-square"></i> Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <img src="https://i.pravatar.cc/150?u=a042581f4e29026704f" alt="User" class="profile-pic">
+                <div class="post-info">
+                    <span class="username">John Smith</span>
+                    <span class="timestamp">1 day ago</span>
+                </div>
+                <i class="fas fa-ellipsis-h post-options"></i>
+            </div>
+            <div class="post-content">
+                <p>Just finished a great project with the team. Hard work pays off! #work #success</p>
+            </div>
+            <div class="post-footer">
+                <div class="post-stats">
+                    <span><i class="fas fa-thumbs-up"></i> 95</span>
+                    <span>15 Comments</span>
+                </div>
+                <div class="post-actions">
+                    <button class="action-button like-button"><i class="far fa-thumbs-up"></i> Like</button>
+                    <button class="action-button"><i class="far fa-comment"></i> Comment</button>
+                    <button class="action-button"><i class="far fa-share-square"></i> Share</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
